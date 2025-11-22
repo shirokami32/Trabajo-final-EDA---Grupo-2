@@ -130,6 +130,9 @@ private:
             return false;  
     }
 
+    //busqueda en cuckoo
+        //codigo
+    
     //funcionalidad interna de insercion con cuckoo
     bool insertarEnCuckoo(const ElementoIndice& nuevo_indice) {
         static int tabla_inicial = 0;
@@ -182,6 +185,23 @@ private:
             archivoData.close();
         }
     }
+
+    //funcion para cargar indice
+        //codigo
+
+    //funcion para guardar indice
+        //codigo
+
+    //funciona para abirr dataset
+        //codigo
+
+
+    //funcion para validar factor de carga
+        //codigo
+
+    //funcion para buscar con dni
+        //codigo
+
 
     //funcionalidad para insertar nuevo registro de persona
     void insertar() {
@@ -358,3 +378,11 @@ private:
         cout << " ERROR: No se pudo insertar la persona\n";    
         MAX_INTENTOS = 500; //se restaura
     } 
+
+    //funcion para eliminar con dni
+        //codigo
+
+    //funcion de mostrar menu
+        //codigo
+
+}
